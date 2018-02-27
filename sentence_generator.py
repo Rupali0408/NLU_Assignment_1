@@ -181,8 +181,8 @@ def generate_words_list(prev, current, trigram):
     p = []
     words = []
     outer_key = (prev, current)
-    p.clear()
-    trigram_words.clear()
+    #p.clear()
+    #trigram_words.clear()
     if outer_key in trigram:
         trigram_words = []
         p = []
